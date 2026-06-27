@@ -12,6 +12,12 @@ Aplikasi desktop untuk penilaian kerentanan otomatis berbasis CVSS v3.1, lengkap
 
 ---
 
+## Laman Web
+https://hackernesia.com
+
+
+---
+
 ## 📺 Support the Channel
 [![AsroyxCySec YouTube Banner](https://img.shields.io/badge/Youtube-Subscribe%20AsroyxCySec-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AsroyxCySec)
 
@@ -142,5 +148,5 @@ Hasilnya berada di folder `dist/`. Flag `--collect-all customtkinter` penting ag
 - Administrator aktif terakhir tidak dapat dihapus, dinonaktifkan, atau diturunkan perannya demi mencegah penguncian sistem.
 
 
-## ☕ Support the Team (Donate)
-Jika proyek ini bermanfaat bagi edukasi keamanan siber Anda, Cukup dibayar dengan Doa
+## Lisensi
+Hackernesia
