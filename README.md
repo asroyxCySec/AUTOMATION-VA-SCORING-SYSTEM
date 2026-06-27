@@ -2,6 +2,7 @@
 
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![Tkinter](https://img.shields.io/badge/Tkinter-lightgrey?style=for-the-badge&logo=tkinter)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Educational-red?style=for-the-badge)
 
