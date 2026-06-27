@@ -66,9 +66,8 @@ python main.py
 Saat pertama dijalankan, basis data SQLite dibuat otomatis di folder `data/` beserta akun admin default:
 
 - **Username:** `admin`
-- **Password:** `admin123`
+- **Password:** `@Persandian2026`
 
-Password default **wajib diganti** pada login pertama.
 
 ## Struktur Proyek
 
