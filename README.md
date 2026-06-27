@@ -1,13 +1,33 @@
-# VulnScore — Automatic Vulnerability Assessment Scoring System
+# VulnScore  (Automatic Vulnerability Assessment Scoring System)
 
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Educational-red?style=for-the-badge)
+
+---
+## 📖 Overview
 Aplikasi desktop untuk penilaian kerentanan otomatis berbasis CVSS v3.1, lengkap dengan autentikasi, RBAC, audit log, dan ekspor laporan profesional (DOCX & PDF). Dibangun dengan Python + CustomTkinter, arsitektur modular (core / models / services / exports / ui) dengan dependency injection.
+
+---
+
+## 📺 Support the Channel
+[![AsroyxCySec YouTube Banner](https://img.shields.io/badge/Youtube-Subscribe%20AsroyxCySec-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AsroyxCySec)
+
+> **Mau konten lebih dalam tentang Cyber Security?**  Support Kanal YouTube kita buat konten edukasi menarik lainnya:  
+> 👉 **[AsroyxCySec YouTube Channel](https://www.youtube.com/@AsroyxCySec)**
+
+---
+
+[![Demo](docs/images/demo-thumbnail.png)](https://github.com/asroyxCySec/AUTOMATION-VA-SCORING-SYSTEM/releases/download/v1.0/demo.mp4)
+
 
 ## Fitur Utama
 
-- **Skoring CVSS v3.1 resmi** — implementasi formula FIRST.org (bukan if-else sederhana), menghasilkan base score, vector string, dan severity otomatis.
-- **Severity chaining** — peningkatan severity otomatis untuk kombinasi kondisi (phpinfo + CVE aktif, dev server + kredensial bocor, version disclosure + CVE kritikal, entry point berantai), disertai alasan.
-- **Remediasi & deadline otomatis** — basis pengetahuan 15+ kelas kerentanan (OWASP/CWE/CAPEC) dengan deadline mengikuti severity (Critical 24 jam, High 7 hari, Medium/Low 30 hari).
-- **Laporan profesional** — ekspor DOCX (python-docx) dan PDF (ReportLab) dengan cover, badge severity, tabel modern, header/footer, dan nomor halaman. Nama berkas otomatis: `Target_NamaTemuan_Tanggal`.
+- **Skoring CVSS v3.1 resmi** implementasi formula FIRST.org (bukan if-else sederhana), menghasilkan base score, vector string, dan severity otomatis.
+- **Severity chaining** peningkatan severity otomatis untuk kombinasi kondisi (phpinfo + CVE aktif, dev server + kredensial bocor, version disclosure + CVE kritikal, entry point berantai), disertai alasan.
+- **Remediasi & deadline otomatis** basis pengetahuan 15+ kelas kerentanan (OWASP/CWE/CAPEC) dengan deadline mengikuti severity (Critical 24 jam, High 7 hari, Medium/Low 30 hari).
+- **Laporan profesional** ekspor DOCX (python-docx) dan PDF (ReportLab) dengan cover, badge severity, tabel modern, header/footer, dan nomor halaman. Nama berkas otomatis: `Target_NamaTemuan_Tanggal`.
 - **Autentikasi & RBAC** — login dengan hashing bcrypt, role Administrator & User, brute-force protection (5 gagal → kunci 15 menit), idle session timeout 30 menit.
 - **Manajemen user** — CRUD, reset password, aktif/nonaktif, ubah role, pencarian, filter, dan paginasi.
 - **Audit log** — pencatatan timestamp, user, role, IP, hostname, aksi, dan status.
@@ -113,3 +133,7 @@ Hasilnya berada di folder `dist/`. Flag `--collect-all customtkinter` penting ag
 - Password disimpan sebagai hash bcrypt (cost 12), bukan teks biasa.
 - Aktivitas sensitif tercatat di audit log beserta IP dan hostname.
 - Administrator aktif terakhir tidak dapat dihapus, dinonaktifkan, atau diturunkan perannya demi mencegah penguncian sistem.
+
+
+## ☕ Support the Team (Donate)
+Jika proyek ini bermanfaat bagi edukasi keamanan siber Anda, Cukup dibayar dengan Doa
