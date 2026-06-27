@@ -1,10 +1,11 @@
 # VulnScore  (Automatic Vulnerability Assessment Scoring System)
 
-
+![Kali Linux](https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
 ![Tkinter](https://img.shields.io/badge/Tkinter-lightgrey?style=for-the-badge&logo=tkinter)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Educational-red?style=for-the-badge)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 ## 📖 Overview
@@ -12,8 +13,8 @@ Aplikasi desktop untuk penilaian kerentanan otomatis berbasis CVSS v3.1, lengkap
 
 ---
 
-## Laman Web
-https://hackernesia.com
+
+## [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00ffaa?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hackernesia.com)
 
 
 ---
