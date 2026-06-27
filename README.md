@@ -23,7 +23,7 @@ Aplikasi desktop untuk penilaian kerentanan otomatis berbasis CVSS v3.1, lengkap
 Klik thumbnail di bawah untuk melihat demo aplikasi.
 
 <p align="center">
-  <a href="https://github.com/asroyxCySec/AUTOMATION-VA-SCORING-SYSTEM/releases/download/v1.0.0/Demo.mp4">
+  <a href="https://drive.google.com/file/d/1QC41vo9rvypXJC6ylokJIXTxzW69zlHs/view?usp=sharing" target="_blank">
       <img src="docs/images/thumbail.png" width="900" alt="Watch Demo">
   </a>
 </p>
