@@ -42,10 +42,10 @@ Klik thumbnail di bawah untuk melihat demo aplikasi.
 - **Severity chaining** peningkatan severity otomatis untuk kombinasi kondisi (phpinfo + CVE aktif, dev server + kredensial bocor, version disclosure + CVE kritikal, entry point berantai), disertai alasan.
 - **Remediasi & deadline otomatis** basis pengetahuan 15+ kelas kerentanan (OWASP/CWE/CAPEC) dengan deadline mengikuti severity (Critical 24 jam, High 7 hari, Medium/Low 30 hari).
 - **Laporan profesional** ekspor DOCX (python-docx) dan PDF (ReportLab) dengan cover, badge severity, tabel modern, header/footer, dan nomor halaman. Nama berkas otomatis: `Target_NamaTemuan_Tanggal`.
-- **Autentikasi & RBAC** — login dengan hashing bcrypt, role Administrator & User, brute-force protection (5 gagal → kunci 15 menit), idle session timeout 30 menit.
-- **Manajemen user** — CRUD, reset password, aktif/nonaktif, ubah role, pencarian, filter, dan paginasi.
-- **Audit log** — pencatatan timestamp, user, role, IP, hostname, aksi, dan status.
-- **Dashboard** — statistik dengan cakupan berbeda untuk admin (seluruh sistem) dan user (milik sendiri).
+- **Autentikasi & RBAC** login dengan hashing bcrypt, role Administrator & User, brute-force protection (5 gagal → kunci 15 menit), idle session timeout 30 menit.
+- **Manajemen user** CRUD, reset password, aktif/nonaktif, ubah role, pencarian, filter, dan paginasi.
+- **Audit log** pencatatan timestamp, user, role, IP, hostname, aksi, dan status.
+- **Dashboard** statistik dengan cakupan berbeda untuk admin (seluruh sistem) dan user (milik sendiri).
 - **Backup & restore** basis data, serta pengaturan identitas instansi, logo, tema, dan bahasa.
 
 ## Persyaratan
