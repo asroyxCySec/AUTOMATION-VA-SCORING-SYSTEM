@@ -150,4 +150,4 @@ Hasilnya berada di folder `dist/`. Flag `--collect-all customtkinter` penting ag
 
 
 ## Lisensi
-Hackernesia
+HackerNesia
